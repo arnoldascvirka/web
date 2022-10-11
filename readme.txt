@@ -14,7 +14,7 @@ WEB Projektas su Flask
 • Sukūrus posta, ant jo paspaudus su tinkamu useriu, galima ištrinti arba updatinti savo posta.
 • Paspaudus ant userio, galima matyti visus jo postus.
 • Runninamas SMTP client (Galima matyti config.py faile), su juo siunciami password reset emailai, su generated fitting user tokens.
-• Routes suskirstyti į atitinkamus folderius, aka, visi user routes kaip login ir register bus users in users folder.
+• Routes suskirstyti į atitinkamus folderius, aka, visi user routes kaip login ir register bus in users folder.
 
 
 
