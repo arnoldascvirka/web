@@ -122,7 +122,7 @@ def reset_request():
         user = User.query.filter_by(email=form.email.data).first()
         send_reset_email(user)
         flash(
-            "An Email has been sent with instructions to reset the password on your registered email id! If you don't find it in the inbox, make sure to check out the spam and/or promotions folder!",
+            "An email with instruction was sent to corresponding email.",
             category="info",
         )
         return redirect(url_for("users.login"))
