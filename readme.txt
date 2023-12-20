@@ -9,7 +9,7 @@ WEB Projektas su Flask
 • Projektas įjungiamas su app.py
 
 • Projektas gali įrašyti users ir posts.
-• Slapdažodžiai hashinami in sql.
+• Slaptažodžiai hashinami in sql.
 • Galima pakeisti profilio nuotrauka, default yra static/profile_pics/default.jpg
 • Sukūrus posta, ant jo paspaudus su tinkamu useriu, galima ištrinti arba updatinti savo posta.
 • Paspaudus ant userio, galima matyti visus jo postus.
