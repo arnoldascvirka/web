@@ -2,24 +2,20 @@
 
 Arnoldas Cvirka 2022-10-11
 
-WEB Projektas su Flask
+WEB Flask project
 
 ##################################
 
-• Projektas įjungiamas su app.py
+• The project is launched with app.py.
 
-• Projektas gali įrašyti users ir posts.
-• Slaptažodžiai hashinami in sql.
-• Galima pakeisti profilio nuotrauka, default yra static/profile_pics/default.jpg
-• Sukūrus posta, ant jo paspaudus su tinkamu useriu, galima ištrinti arba updatinti savo posta.
-• Paspaudus ant userio, galima matyti visus jo postus.
-• Runninamas SMTP client (Galima matyti config.py faile), su juo siunciami password reset emailai, su generated fitting user tokens.
-• Routes suskirstyti į atitinkamus folderius, aka, visi user routes kaip login ir register bus in users folder.
+• The project can save users and posts. 
+• Passwords are hashed in SQL. 
+• You can change the profile picture; the default is static/profile_pics/default.jpg. 
+• After creating a post, by clicking on it with the appropriate user, you can delete or update your post. 
+• By clicking on a user, you can see all of their posts. 
+• An SMTP client is running (can be seen in the config.py file), which is used to send password reset emails with generated user tokens. 
+• Routes are divided into corresponding folders; for example, all user routes like login and register are in the users folder.
 
+If there's an error due to itsdangerous, you can install it via: pip install git+https://github.com/puiterwijk/flask-oidc.git@b10e6bf881a3fe0c3972e4093648f2b77f32a97c
 
-
-
-Jei bus erroras dėl itsdangerous, irasyti galima per:
-    pip install git+https://github.com/puiterwijk/flask-oidc.git@b10e6bf881a3fe0c3972e4093648f2b77f32a97c
-
-Tai dėl to kad itsdangerous yra deprecated library.
+This is because itsdangerous is a deprecated library.
